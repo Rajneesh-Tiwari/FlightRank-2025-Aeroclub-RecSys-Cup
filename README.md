@@ -71,9 +71,7 @@ The solution employs a sophisticated multi-algorithm ensemble that combines thre
 ### Requirements
 
 ```bash
-pip install polars pandas numpy scikit-learn
-pip install xgboost lightgbm catboost
-pip install optuna
+pip install requirements.txt
 ```
 
 ### Hardware Requirements
