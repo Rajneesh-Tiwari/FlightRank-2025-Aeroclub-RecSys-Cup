@@ -102,7 +102,6 @@ pred.rename(columns={'rank':'selected'},inplace=True)
 display(pred) ### You can do local download like this or can save to csv
 ```
 
-7.   display(final_predictions_ranked_pd_new)
 ### Individual Model Results
 
 - **Best Single Model**: NB0036 generates `ensemble_test_predictions_ranked.csv` (Private LB: 0.53807)
