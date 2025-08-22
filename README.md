@@ -95,12 +95,12 @@ pip install optuna
 4. **Final Output**: `ensemble_test_predictions_ranked_pd.csv` (Private LB: 0.54175)
 5. **Local download**: To test any other saved prediction file run this -
 
-'''
+```python
 pred = pd.read_csv('ensemble_test_predictions_ranked.csv')
 pred = pred[['Id','ranker_id','rank']]
 pred.rename(columns={'rank':'selected'},inplace=True)
 display(pred) ### You can do local download like this or can save to csv
-'''
+```
 
 7.   display(final_predictions_ranked_pd_new)
 ### Individual Model Results
