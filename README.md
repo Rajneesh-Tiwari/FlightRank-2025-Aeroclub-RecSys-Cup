@@ -78,7 +78,7 @@ pip install requirements.txt
 
 - **CPU:** Multi-core processor
 - **RAM:** 512GB (recommended for full reproduction)
-- **Storage:** ~50GB for intermediate files and models
+- **Storage:** ~100GB for intermediate files and models
 
 ### Reproduction Steps
 
